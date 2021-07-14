@@ -88,7 +88,7 @@ function App() {
       if (partnerVideo.current) {
         partnerVideo.current.srcObject = stream;
       }
-    }); //สตรีมวิดีโอของผู้ใช้
+    });
 
     socket.current.on("callAccepted", signal => {
       setCallAccepted(true);
